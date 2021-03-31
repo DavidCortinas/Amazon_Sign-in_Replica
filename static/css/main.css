@@ -1,0 +1,43 @@
+img {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    width: 350px;
+    margin-top: 20px;
+}
+
+form {
+    border: 1px solid lightgrey;
+    padding: 15px 25px 25px 25px;
+}
+
+#words_1 {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#words_2 {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#words_3 {
+    font: 7px;
+}
+
+.sign-in {
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.conditions {
+    font-size: 8px;
+    color: blue;
+    margin-top: 30px;
+    z-index: 2;
+}
+
+.
