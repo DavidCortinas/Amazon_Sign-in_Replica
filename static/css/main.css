@@ -1,16 +1,19 @@
-img {
+.img_1 {
     margin-top: 20px;
     margin-bottom: 50px;
 }
 
 .btn {
-    width: 350px;
+    width: 30em;
     margin-top: 20px;
+    box-shadow: inset 0px -1px 1px grey,
+    inset 0 1px 1px grey;
 }
 
 form {
     border: 1px solid lightgrey;
-    padding: 15px 25px 25px 25px;
+    padding: 15px 25px 0px 25px;
+
 }
 
 #words_1 {
@@ -19,6 +22,7 @@ form {
 }
 
 #words_2 {
+    padding-top: 2em;
     font-weight: bold;
     font-size: 14px;
 }
@@ -28,16 +32,59 @@ form {
 }
 
 .sign-in {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-size: 30px;
-    font-weight: bold;
+    margin-bottom: 15px;
 }
 
+
 .conditions {
-    font-size: 8px;
+    font-size: 12px;
     color: blue;
     margin-top: 30px;
     z-index: 2;
+    align-items: center;
+    justify-content: center;
 }
 
-.
+.footer {
+    width: max;
+    height: 350px;
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+#grey-button {
+    background-color: lightgrey;
+    border: black;
+    width: 32em;
+    position: relative;
+    left: 2%;
+    margin-bottom: 20px ;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid lightgrey;
+  }
+  
+  .separator:not(:empty)::before {
+    margin-right: .5em;
+  }
+  
+  .separator:not(:empty)::after {
+    margin-left: .5em;
+  }
+
+  #copy {
+      text-align: center;
+      justify-content: center;
+  }

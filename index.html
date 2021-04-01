@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr"> 
+<html lang="en"> 
     <head>
-        <!-- Required meta tags -->
         <meta charset="utf-8"> 
         <title><Amazon</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,65 +8,70 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="./static/css/main.css">
         
-        <title>Amazon</title>
+        <title>Amazon Sign-In</title>
     </head>
 
     <body>
         <header>
-        
             <div class="d-flex flex-row justify-content-center">
-                <a href="https://placeholder.com"><img src="https://via.placeholder.com/103x31"></a></p>
+                <a href="https://placeholder.com"><img class="img_1" src="https://via.placeholder.com/103x31"></a></p>
             </div>
         </header>
 
         <main>
 <!--Form-->
-            <div class="d-flex flex row justify-content-center">
-                <div class="row">
-                 <div class="col-md">
-                     <form>
-                        <div class="sign in">Sign In</div>
-                        <div class="form-group">
-                            <label id="words_1" for="exampleInputEmail1">
-                                Email (phone for mobile accounts)
-                            </label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" 
-                            aria-describedby="emailHelp">
-                        </div>
-                        <div class="form-group">
-                
-                        <label id="words_2" for="exampleInputPassword1">Password 
-                            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-                            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Forgot your password?
+        <div class="d-flex flex row justify-content-center">
+            <div class="row">
+                <div class="col-md">
+                    <form>
+                        <div class="sign-in">Sign in</div>
+                        <div>
+                        <label id="words_1">
+                            Email (phone for mobile accounts)
                         </label>
-                        <input type="password" class="form-control"
+                            <input type="email" class="form-control">
+                        </div>
+                        <div>
+                        <label id="words_2">Password 
+                            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+                            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                            &nbsp 
+                        </label>
+                            <a href="">Forgot Password</a>
+                        
+                            <input type="password" class="form-control"
                             id="exampleInputPassword1">
-                        <div class="form-group">
+                        </div>
                          <button type="button" class="btn btn-warning" id="sign-in">Continue</button>
-                        <div class="form-check">
-
-                        <a>
-                            <p class="need-help"><img src="static/images/play-fill.svg">Need Help?<a href="https://stupidlink.com"></p>
+                        <a href="">
+                            <p></p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"></path>
+                              </svg>&nbsp Need help?</p>
                         </a>
                         </form>
-
-                    <div class="d-flex flex-row justify-content-center footer_1">
-                    <div class="row">
-                        <div class="col">
-                            <p class="conditions"><a>Conditions of Use &nbsp &nbsp &nbsp </a> <a>Privacy Notice&nbsp &nbsp &nbsp </a>
-                                <a>Help&nbsp &nbsp &nbsp </a></p>
+        <p></p>                
+        <div class="separator">New to Amazon?</div>
+            <div class="col text-center"></div><button type="button" class="btn "id="grey-button" class="text-center">Create your Amazon account</button></div>
+                    </div> 
                         </div>
-                        <!--Footer Col 1 End-->
-                    </div>
-                    <!--Footer Row 1 End-->
-                    
-                    </div>
-
-        
         </main>
-
+        <p>&nbsp</p>
+        <hr>
         <footer>
-
+            <div class="d-flex flex-row justify-content-center footer_1">
+                <div class="row">
+                    <div>
+                        <p class="conditions">
+                            <a href="">Conditions of Use &nbsp &nbsp</a>
+                            <a href="">Privacy Notice &nbsp &nbsp &nbsp &nbsp &nbsp</a>
+                            <a href="">Help &nbsp &nbsp &nbsp</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <p id=copy style="font-size: 11px;">&copy; 1996-2018, Amazon.com, Inc. or it's affiliates</p>
         </footer>
     </body>
 </html>
